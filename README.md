@@ -43,7 +43,3 @@ A folder that contains the final csv for each wells with the calculated properti
 ## License
 
 [This project is licensed under the MIT License](https://choosealicense.com/licenses/mit/)
-
-## Acknowledgments
-
-[Dr Amy Hessl](https://github.com/hessllab)
