@@ -24,7 +24,7 @@ from sklearn.pipeline import Pipeline
 # load the well data into one DataFrame
 data = pd.DataFrame()  #empty DataFrame to serve as container for the data
 
-directory = r"C:\Users\Tobi\Desktop\PNGE691-D\Project\Logs"  #Directory containing the well data in .csv format
+directory = r".\Logs"  #Directory containing the well data in .csv format
 
 #loops through all the files in the directory, reads the csv and appends it to the data DataFrame
 for file in os.listdir(directory):
