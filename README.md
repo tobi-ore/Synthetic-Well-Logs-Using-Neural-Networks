@@ -18,23 +18,17 @@ __Software__: `Python`
 
 __Packages__: `sklearn`, `numpy`, `pandas` and `matplotlib`
 
-To download the data, run  `bash data_download.sh` in the command line.
-
-
-
-The various manipulations and operations on the well logs in done by running the python script called `project.py`. 
+The various manipulations and operations on the well logs is done by running the python script called `project.py`. 
 
 ## Expected Products
-The Output folder contains all the expected products from this project. To test this code, do not download the Output folder from this repo. Again, the data_csv folder is also an output which is used by the R script. download this folder iof you do not have Python on your system.
-
 _Log images_
 A folder that contains all the well log images named after the name of the respective wells.
 
-_Vsh images_
-A folder that contains the plot of calculated volume of shale for each wells.
+_model images_
+A folder that contains the plot of actual and predicted well logs.
 
-_Interpreted logs_
-A folder that contains the final csv for each wells with the calculated properties.
+_Cross Match_
+A CSV file that shows the availability of logs in the different wells.
 
 ## Author
 
